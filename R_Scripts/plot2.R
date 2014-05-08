@@ -1,4 +1,4 @@
-plot2 <- function(inputFile="../DATA_INPUT/household_power_consumption.txt", outputFolder="../DATA_OUTPUT"){
+plot2 <- function(inputFile="../DATA_INPUT/household_power_consumption.txt", outputFolder="../Plot_Files"){
 
 	columnsClass <- c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric")
 	data<-read.table(inputFile, sep=";", colClasses = columnsClass, header = T, na.strings = "?" )
